@@ -15,3 +15,6 @@ storage/*.key
 /public/database-backup
 phpcs.xml
 modules_statuses.json
+index_backup.php
+upload.zip
+
