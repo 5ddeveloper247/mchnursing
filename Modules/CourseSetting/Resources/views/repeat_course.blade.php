@@ -113,7 +113,6 @@
 
 
                 <input type="hidden" id="url" value="{{ url('/') }}">
-                @dd($course)
                 <form action="{{ route('AdminSaveCourse') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="row">
